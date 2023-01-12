@@ -1,14 +1,17 @@
 :root {
   --fonte: 'Montserrat', sans-serif;
-  --branco: #ffffff;
+  --branco: #FFFFFF;
   --preto: #000000;
-  --cinza: #e2e2e2;
+  --cinza: #E2E2E2;
 }
 
 body {
   margin: 0;
   font-family: var(--fonte);
   background-color: var(--branco);
+  background-image: url(../public/imagens/background-cinema.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
